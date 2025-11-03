@@ -28,24 +28,24 @@ body{
 #next_btn_b{
     position: absolute;
     right: 5%;
-    top: 40%;
+    top: 45%;
     
 }
 #prev_btn_b{
     position: absolute;
     left: 5%;
-    top: 40%;
+    top: 45%;
 }
 #next_btn_e{
     position: absolute;
     right: 5%;
-    top: 20%;
+    top: 30%;
     
 }
 #prev_btn_e{
     position: absolute;
     left: 5%;
-    top: 20%;
+    top: 30%;
 }
 button{
     background-color: #FFE2F7;
@@ -121,7 +121,7 @@ button:hover{
 }
 
 
-@media (max-width:570px){
+@media (max-width:600px){
     #kitty,#outfit,#eye,#blush {
         width:60%;
         margin-bottom: 15%;
@@ -130,5 +130,43 @@ button:hover{
         font-size: 16px;
         padding: 8px 16px;
     }
-    
+    #next_btn{
+    top: 50%;
+    }
+    #prev_btn{
+        top: 50%;
+    }
+    #next_btn_b{
+        top: 40%;
+    }
+    #prev_btn_b{
+        top: 40%;
+    }
+    #next_btn_e{
+        top: 30%;
+    }
+    #prev_btn_e{
+        top: 30%;
+    }
+}
+
+@media(max-width:338px){
+    #next_btn{
+    top: 48%;
+    }
+    #prev_btn{
+        top: 48%;
+    }
+    #next_btn_b{
+        top: 42%;
+    }
+    #prev_btn_b{
+        top: 42%;
+    }
+    #next_btn_e{
+        top: 36%;
+    }
+    #prev_btn_e{
+        top: 36%;
+    }
 }
